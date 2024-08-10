@@ -6,8 +6,6 @@ void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
     initialRoute: 'login',
-    routes: {'login': (context) => Mylogin()},
+    routes: {'login': (context) => const Mylogin()},
   ));
 }
-
-
